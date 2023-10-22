@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border-color: rgb(197, 197, 212);
+}
+
+.counter-container {
+  align-items: center;
+  border: 10ox;
+  border-radius: 10px;
+  border-color: rgb(167, 81, 232);
+  border-style: solid; 
+  border-width: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  gap: 1px;
+  margin: 1px 0px;
+  text-transform: capitalize;
+
+  
+}
+
+button {
+  padding: 5px 5px;
+  margin: 0 5px;
+  background-color: rgb(178, 120, 245);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  }
+
+button:hover{
+  box-shadow: 80px;
+  background-color: rgb(86, 6, 139);
+ }
+
+input{
+  margin: 10px 0px;
+}
