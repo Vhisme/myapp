@@ -8,14 +8,14 @@ function Home() {
       <ErrorBoundary fallback>
         {" "}
       
-        <h1>Altschool exam</h1>
+        <h1>Alt-school exam</h1>
         <p>
           <Link to="/counter">counter app</Link>
         </p>
         <ErrorTest />
         <p>
           {" "}
-          <Link to="/">404 page</Link>
+          <Link to="/404 page">404 page</Link>
         </p>
       </ErrorBoundary>
     </div>

@@ -12,8 +12,8 @@ function App() {
       <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/counter" element={<Counters/>}/>
-      <Route path="/" element={<ErrorBoundary/>}/>
-      <Route path="/" element={<ErrorTest/>}/>
+      <Route path="/ErrorBoundary" element={<ErrorBoundary/>}/>
+      <Route path="/ErrorTest" element={<ErrorTest/>}/>
       </Routes>
     </Router>
     
