@@ -6,15 +6,12 @@ function Home() {
   return (
     <div className="home">
       <ErrorBoundary fallback>
-        {" "}
-      
         <h1>Alt-school exam</h1>
         <p>
           <Link to="/counter">counter app</Link>
         </p>
         <ErrorTest />
         <p>
-          {" "}
           <Link to="/404 page">404 page</Link>
         </p>
       </ErrorBoundary>

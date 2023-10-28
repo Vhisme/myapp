@@ -27,10 +27,7 @@ function Counters() {
       </div>
       <input value={newCount} type="number" onChange={handleOnChange} />
       <button onClick={handleOnClick}>Set count value</button>
-      <Link to="/">
-        {" "}
-        <p>back to our homepage</p>{" "}
-      </Link>
+      <p><Link to="/">back to our homepage</Link></p>
     </div>
   );
 }

@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 class ErrorBoundary extends React.Component {
   state = { hasError: false };
 
-  static getDerivedStateFromError(error) {
+  static getDerivedStateFromError(_error) {
     return { hasError: true };
   }
 
@@ -18,10 +19,9 @@ class ErrorBoundary extends React.Component {
       return (
         <div>
           <h1>Error occurred in the component.</h1>
-          <Link to="/">
-            {" "}
-            <p>back to our homepage</p>{" "}
-          </Link>
+          <p>back to homepage</p>
+          <Link to="/"><button>Home</button></Link>
+          
         </div>
       );
     }
